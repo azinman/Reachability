@@ -28,12 +28,6 @@
 #import <Foundation/Foundation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
 
-//! Project version number for MacOSReachability.
-FOUNDATION_EXPORT double ReachabilityVersionNumber;
-
-//! Project version string for MacOSReachability.
-FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
-
 /** 
  * Create NS_ENUM macro if it does not exist on the targeted version of iOS or OS X.
  *
@@ -43,7 +37,13 @@ FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
 #define NS_ENUM(_type, _name) enum _name : _type _name; enum _name : _type
 #endif
 
-extern NSString *const kReachabilityChangedNotification;
+//! Project version number for MacOSReachability.
+FOUNDATION_EXPORT double LEReachabilityVersionNumber;
+
+//! Project version string for MacOSReachability.
+FOUNDATION_EXPORT const unsigned char LEReachabilityVersionString[];
+
+extern NSString *const kLEReachabilityChangedNotification;
 
 typedef NS_ENUM(NSInteger, NetworkStatus) {
     // Apple NetworkStatus Compatible Names.
@@ -52,14 +52,14 @@ typedef NS_ENUM(NSInteger, NetworkStatus) {
     ReachableViaWWAN = 1
 };
 
-@class Reachability;
+@class LEReachability;
 
-typedef void (^NetworkReachable)(Reachability * reachability);
-typedef void (^NetworkUnreachable)(Reachability * reachability);
-typedef void (^NetworkReachability)(Reachability * reachability, SCNetworkConnectionFlags flags);
+typedef void (^NetworkReachable)(LEReachability * reachability);
+typedef void (^NetworkUnreachable)(LEReachability * reachability);
+typedef void (^NetworkReachability)(LEReachability * reachability, SCNetworkConnectionFlags flags);
 
 
-@interface Reachability : NSObject
+@interface LEReachability : NSObject
 
 @property (nonatomic, copy) NetworkReachable    reachableBlock;
 @property (nonatomic, copy) NetworkUnreachable  unreachableBlock;

@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86E2F0111B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0121B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0131B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
-		86E2F0141B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
+		86E2F0111B4EE700002D66BB /* LEReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* LEReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E2F0121B4EE700002D66BB /* LEReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* LEReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E2F0131B4EE700002D66BB /* LEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* LEReachability.m */; };
+		86E2F0141B4EE700002D66BB /* LEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* LEReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86E2EFD41B4EE3C9002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E2EFD41B4EE3C9002D66BB /* LEReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2EFD71B4EE3C9002D66BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86E2EFF21B4EE3DE002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86E2F00F1B4EE700002D66BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
-		86E2F0101B4EE700002D66BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		86E2EFF21B4EE3DE002D66BB /* LEReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E2F00F1B4EE700002D66BB /* LEReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEReachability.h; path = ../LEReachability.h; sourceTree = "<group>"; };
+		86E2F0101B4EE700002D66BB /* LEReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEReachability.m; path = ../LEReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +50,8 @@
 		86E2EFB41B4EE3A2002D66BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86E2EFD41B4EE3C9002D66BB /* Reachability.framework */,
-				86E2EFF21B4EE3DE002D66BB /* Reachability.framework */,
+				86E2EFD41B4EE3C9002D66BB /* LEReachability.framework */,
+				86E2EFF21B4EE3DE002D66BB /* LEReachability.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,8 +59,8 @@
 		86E2F00E1B4EE6D5002D66BB /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				86E2F00F1B4EE700002D66BB /* Reachability.h */,
-				86E2F0101B4EE700002D66BB /* Reachability.m */,
+				86E2F00F1B4EE700002D66BB /* LEReachability.h */,
+				86E2F0101B4EE700002D66BB /* LEReachability.m */,
 				86E2EFD71B4EE3C9002D66BB /* Info.plist */,
 			);
 			name = Framework;
@@ -73,7 +73,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0111B4EE700002D66BB /* Reachability.h in Headers */,
+				86E2F0111B4EE700002D66BB /* LEReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0121B4EE700002D66BB /* Reachability.h in Headers */,
+				86E2F0121B4EE700002D66BB /* LEReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			);
 			name = iOSReachability;
 			productName = iOSReachability;
-			productReference = 86E2EFD41B4EE3C9002D66BB /* Reachability.framework */;
+			productReference = 86E2EFD41B4EE3C9002D66BB /* LEReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86E2EFF11B4EE3DE002D66BB /* MacOSReachability */ = {
@@ -121,7 +121,7 @@
 			);
 			name = MacOSReachability;
 			productName = MacOSReachability;
-			productReference = 86E2EFF21B4EE3DE002D66BB /* Reachability.framework */;
+			productReference = 86E2EFF21B4EE3DE002D66BB /* LEReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86E2EFAD1B4EE3A2002D66BB /* Build configuration list for PBXProject "Framework" */;
+			buildConfigurationList = 86E2EFAD1B4EE3A2002D66BB /* Build configuration list for PBXProject "LEReachability" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0131B4EE700002D66BB /* Reachability.m in Sources */,
+				86E2F0131B4EE700002D66BB /* LEReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0141B4EE700002D66BB /* Reachability.m in Sources */,
+				86E2F0141B4EE700002D66BB /* LEReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +300,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_BUNDLE_IDENTIFIER = empirical.Reachability;
+				PRODUCT_MODULE_NAME = LEReachability;
+				PRODUCT_NAME = LEReachability;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -317,8 +318,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_BUNDLE_IDENTIFIER = empirical.Reachability;
+				PRODUCT_MODULE_NAME = LEReachability;
+				PRODUCT_NAME = LEReachability;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -341,8 +343,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_BUNDLE_IDENTIFIER = empirical.LEReachability;
+				PRODUCT_MODULE_NAME = LEReachability;
+				PRODUCT_NAME = LEReachability;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -361,8 +364,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_BUNDLE_IDENTIFIER = empirical.LEReachability;
+				PRODUCT_MODULE_NAME = LEReachability;
+				PRODUCT_NAME = LEReachability;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -371,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86E2EFAD1B4EE3A2002D66BB /* Build configuration list for PBXProject "Framework" */ = {
+		86E2EFAD1B4EE3A2002D66BB /* Build configuration list for PBXProject "LEReachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86E2EFC71B4EE3A2002D66BB /* Debug */,
